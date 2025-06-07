@@ -1,11 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vaishnavi | Portfolio</title>
+  <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <p>NALLA VAISHNAVI</p>
+  <header>
+    <div class="logo">Vaishnavi Nalla</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+      <button class="toggle-btn" onclick="toggleTheme()">🌙</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Hello, I'm <span class="typing">a CSE Undergrad at NITW</span></h1>
+    <p>I build responsive web apps and love solving DSA problems.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I’m a Computer Science Engineering student at NIT Warangal . I work with HTML, CSS, JavaScript, React, Java, and C++.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul class="skills">
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+      <li>Java</li>
+      <li>C++</li>
+      <li>DSA</li>
+      <li>OOP</li>
+      <li>DBMS</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>BookBug</h3>
+        <p>Frontend for book rental, returns, and resale. Built with HTML, CSS, JavaScript.</p>
+      </div>
+      <div class="card">
+        <h3>ToDo App</h3>
+        <p>A simple task manager with dark mode and animations.</p>
+      </div>
+      <div class="card">
+        <h3>Portfolio</h3>
+        <p>This personal website you’re seeing right now.</p>
+      </div>
+    </div>
+  </section>
+<section id="certificates">
+  <h2>Certificates</h2>
+  <ul>
+    <li><strong>Full Stack Development</strong> - Internshala Trainings (April 2024)</li>
+  </ul>
+</section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: vaishnavinalla1111@gmail.com</p>
+    <p>LinkedIn: linkedin.com/in/vaishnavi</p>
+  </section>
+
+   
+
+  <script src="index.js"></script>
 </body>
 </html>
+
+
